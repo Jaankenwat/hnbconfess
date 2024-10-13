@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/pexels-karolina-grabowska-4197558.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repetition */
+  }
+  #bemineimg {
+    height: 40vh;
+    width: 40vw;
+    background-image: url(/images/pexels-meli-di-rocco-303801-879200.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    opacity: 0.8;
+    display: flex;
+    border-radius: 4px;
+  
+  }
+  #bemineimg div{
+    width: 50%;
+    /* background-color: red;
+    border: 2px solid black; */
+  }
+  #LoginLink{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  form input {
+    border: 0px;
+    border-radius: 7px;
+    height: 24px;
+    width: 220px;
+    padding: 5px;
+    margin: 4px;
+  }
+  form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  form a{
+    font-size: small;
+    font-weight: bold;
+  }
+  form a:hover{
+    color: ghostwhite;
+  }
+  .shareicons img {
+      /* background-color: #705c53; */
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+  }
+  .shareicons {
+    /* background-color: #705c53; */
+    padding: 8px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* height: 30px;
+    padding: 100px;
+    width: 30px; */
+  }
+  #registrationform{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #firstinfo{
+    padding-top: 50px;
+    padding-left: 30px;
+    
+  }
+  #firstinfo :first-child{
+    font-size: 42px;
+    font-weight: bold;
+    color: #c7716f;
+    /* color:#d1c4bd; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #firstinfo :nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #c7716f; */
+    color:#d1c4bd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  @media only screen and (max-width: 600px){
+    #bemineimg{
+        height: 50%;
+        width: 70%;
+        border-radius: 10px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    form{
+      padding: 0px;
+    }
+    form input{
+        width: 40vw;
+        height: 20px;
+    }
+    #bemineimg div{
+        width: 100%;
+    }
+    #registrationform form{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #shareicons img{
+        height: 15px;
+        width: 15px;
+    }
+
+  }
+  align-items: center;
+  background-image: url(/images/pexels-karolina-grabowska-4197558.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+}
+#bemineimg {
+  height: 40vh;
+  width: 40vw;
+  background-image: url(/images/pexels-meli-di-rocco-303801-879200.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  opacity: 0.8;
+  display: flex;
+  border-radius: 4px;
+
+}
+#bemineimg div{
+  width: 50%;
+  /* background-color: red;
+  border: 2px solid black; */
+}
+
+form input {
+  border: 0px;
+  border-radius: 7px;
+  height: 24px;
+  width: 220px;
+  padding: 5px;
+  margin: 4px;
+}
+form{
+  padding: 40px;
+}
+.shareicons img {
+  /* background-color: #705c53; */
+  margin: 2px;
+  height: 30px;
+  width: 30px;
+}
+.shareicons {
+  /* background-color: #705c53; */
+  padding: 8px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* height: 30px;
+  padding: 100px;
+  width: 30px; */
+}
+#registrationform{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#firstinfo{
+  padding-top: 50px;
+  padding-left: 30px;
+  
+}
+#firstinfo :first-child{
+  font-size: 42px;
+  font-weight: bold;
+  color: #c7716f;
+  /* color:#d1c4bd; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#firstinfo :nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  /* color: #c7716f; */
+  color:#d1c4bd;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
